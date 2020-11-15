@@ -1896,8 +1896,8 @@ StScrollBar {
 		#LookingGlassDialog .notebook-tab:hover {
 			color: white; }
 		#LookingGlassDialog .notebook-tab:selected {
-			border-bottom-width: 2px;
-			border-color:#026ec4;
+			background-color:#026ec4;
+			box-shadow: none !important;
 			color: white; }
 	#LookingGlassDialog StBoxLayout#EvalBox {
 		padding: 4px;
